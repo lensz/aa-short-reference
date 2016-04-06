@@ -9,7 +9,9 @@
 % => 3*7,5 + 2*0.5 + 2*3,1 = 29,7 :)
 %
 
-\usepackage[landscape,margin={3.1cm,1cm}]{geometry}
+\usepackage[landscape,
+			hmargin={3.1cm},
+			vmargin={0.8cm, 1.2cm}]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 \usepackage[T1]{fontenc}
@@ -145,6 +147,13 @@ Only if there was NO sea combat in the offloading zone.  One ship per unloaded l
 Normal land combat, but seaborne units cannot retreat
 \end{enumerate}
 
+\subsection*{Capturing/Liberating Capitals}
+Liberate captured territory from your alliance gives it to the original controller if his capital is not in enemy hands. If capital is captured, you take it for yourself until the capital is free.
+
+\textbf{Capture Capital:} Like normal territory. Plus you get all unspend IPC of the country. Original controller can't collect income from territories and can't buy new units. He does only \glqq Combat\grqq\ and \glqq Non-Combat\grqq\ until his capital is liberated.
+
+\textbf{Liberate Capital:} territories in hands of friends go immediately back to own control.
+
 \subsection*{Strategical and Tactical Bombing Raids}
 Direct attack with tac.-bomber on air- or navalbase. Str.-bomber can attack industry, too.
 Damaged facilities have to be repaired (with IPC). Defender and Attacker can both add fighters (but they don't have to). Defending fighters come from attacked territory - Attacking from everywhere. If defender uses fighters, a special airbattle follows. 
@@ -156,18 +165,9 @@ Fighters don't participate in the actual bombing, so no AA fire on them. If terr
 Each complex rolls one dice against each bomber attacking it. Hits on 1 or less and the bomber is removed immediately. Now the surviving bombers roll one dice each. Str. bombers add 2 to each dice. Sum of those is the total damage. Place one gray chip under the facility for every damagepoint to indicate damage. Max damage is 20 for major industry, 6 for everything else.\\
 No plane involved can participate in other battles in that turn. \textsuperscript{p.16}
 
-%\begin{minipage}{\linewidth}
-\subsection*{Capturing/Liberating Capitals}
-Liberate captured territory from your alliance gives it to the original controller if his capital is not in enemy hands. If capital is captured, you take it for yourself until the capital is free.
-
-\textbf{Capture Capital:} Like normal territory. Plus you get all unspend IPC of the country. Original controller can't collect income from territories and can't buy new units. He does only \glqq Combat\grqq\ and \glqq Non-Combat\grqq\ until his capital is liberated.
-
-\textbf{Liberate Capital:} territories in hands of friends go immediately back to own control.
-
 \subsection*{Convoy Disruptions}
 At the beginning of your collect-income phase, do enemy warships (all except carrier) and carrier based air units fire on your convoys. Only in convoy-provinces. Your own warships in the zone have no effect.\\
 Submarines and air units have two dices, all other warships only one. Hits 4 or more are ignored. The total damage is the sum of all rolls with 3 or less. But you can only disrupt so much IPC as the neighbouring territories have!
-%\end{minipage}
 
 \pagebreak
 
@@ -289,13 +289,19 @@ When Japan Is at War with US and/or UKAZ:
 \item 5 IPCs if Japan controls all of the following territories: Sumatra, Java, Borneo, and Celebes. \textsl{Theme: Strategic resource centers.}
 \end{itemize}
 
+\subsection*{ANZAC}
+When ANZAC Is at War with Japan:
+\begin{itemize}
+\item 5 IPCs if an Allied power controls Malaya and ANZAC controls all of its original territories. \textsl{Theme: Malaya considered strategic cornerstone to Far East British Empire.}
+\item 5 IPCs if the Allies (not including the Dutch) control Dutch New Guinea, New Guinea, New Britain, and the Solomon Islands. \textsl{Theme: Strategic outer defense perimeter.}
+\end{itemize}
+\end{minipage}
+\columnbreak
 \subsection*{China}
 \begin{itemize}
 \item 6 IPCs if the Burma Road is totally under allied control. China is also permitted to purchase artillery (represented by U.S. pieces). \textsl{Theme: Chinese military supply line corridor.}
 \end{itemize}
-\end{minipage}
 
-\noindent\begin{minipage}{\linewidth}
 \subsection*{United States}
 When the United States Is at War:
 \begin{itemize}
@@ -312,13 +318,6 @@ When the United Kingdom Is at War with Japan:
 and Malaya. \textsl{Theme: Maintenance of the empire considered vital national objective.}
 \end{itemize}
 
-\subsection*{ANZAC}
-When ANZAC Is at War with Japan:
-\begin{itemize}
-\item 5 IPCs if an Allied power controls Malaya and ANZAC controls all of its original territories. \textsl{Theme: Malaya considered strategic cornerstone to Far East British Empire.}
-\item 5 IPCs if the Allies (not including the Dutch) control Dutch New Guinea, New Guinea, New Britain, and the Solomon Islands. \textsl{Theme: Strategic outer defense perimeter.}
-\end{itemize}
-\end{minipage}
-
 \end{multicols*}
+
 \end{document}
