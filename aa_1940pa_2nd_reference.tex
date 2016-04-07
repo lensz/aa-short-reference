@@ -9,7 +9,7 @@
 % => 3*7,5 + 2*0.5 + 2*3,1 = 29,7 :)
 %
 
-\usepackage[landscape, a4paper,
+\usepackage[landscape, a4paper, 
 			left=3.1cm, 
 			right=3.1cm,
 			top=0.8cm, 
@@ -19,6 +19,8 @@
 \usepackage[german]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{rotating}
 
 \usepackage{lastpage}
 \usepackage{fancyhdr} 
@@ -294,7 +296,6 @@ Can transport 1 landunit plus 1 additional infantry\\
 Can only chosen as a casualty if no other option is valid (\glqq chosen last\grqq).\\
 Friendly units have to move on the trapo in their turn, be carried on your turn and offload in their future turns.
 
-\noindent\begin{minipage}{\linewidth}
 \section*{National Objectives}
 \subsection*{Japan}
 When Japan is not at War with US:
@@ -314,11 +315,12 @@ When ANZAC Is at War with Japan:
 \item 5 IPCs if an Allied power controls Malaya and ANZAC controls all of its original territories. \textsl{Theme: Malaya considered strategic cornerstone to Far East British Empire.}
 \item 5 IPCs if the Allies (not including the Dutch) control Dutch New Guinea, New Guinea, New Britain, and the Solomon Islands. \textsl{Theme: Strategic outer defense perimeter.}
 \end{itemize}
-\end{minipage}
-\columnbreak
-\subsection*{China}
+
+\subsection*{United Kingdom}
+When the United Kingdom Is at War with Japan:
 \begin{itemize}
-\item 6 IPCs if the Burma Road is totally under allied control. China is also permitted to purchase artillery (represented by U.S. pieces). \textsl{Theme: Chinese military supply line corridor.}
+\item 5 IPCs if the United Kingdom controls both Kwangtung
+and Malaya. \textsl{Theme: Maintenance of the empire considered vital national objective.}
 \end{itemize}
 
 \subsection*{United States}
@@ -330,12 +332,45 @@ When the United States Is at War:
 \item 5 IPCs if the US controls Philippines. \textsl{Theme: Center of American influence in Asia.}
 \end{itemize}
 
-\subsection*{United Kingdom}
-When the United Kingdom Is at War with Japan:
+\subsection*{China}
 \begin{itemize}
-\item 5 IPCs if the United Kingdom controls both Kwangtung
-and Malaya. \textsl{Theme: Maintenance of the empire considered vital national objective.}
+\item 6 IPCs if the Burma Road is totally under allied control. China is also permitted to purchase artillery (represented by U.S. pieces). \textsl{Theme: Chinese military supply line corridor.}
 \end{itemize}
+
+%\noindent
+\centering
+\begin{sideways}
+\scalebox{0.76}{
+\bgroup\def\arraystretch{1.1}\begin{tabular}{l|c|c|c|c|l}
+Name & Cost & Att & Def & Move & Special \\
+\hline
+Infantry & 3 & 1 (2) & 2 & 1 & - \\
+Artillery & 4 & 2 & 2 & 1 & - \\
+Mech. Inf. & 4 & 1 (2) & 2 & 2 & can blitz with tank \\
+Tank & 6 & 3 & 3 & 2 & can blitz \\
+AAA & 5 & - & 0 & 1 & shoots on up to 3 planes \\
+\hline
+Fighter & 10 & 3 & 4 & 4 & escort/intercept bombings \\
+Tac. Bomber & 11 & 3 (4) & 3 & 4 & Tac. bombings \\
+Str. Bomber & 12 & 4 & 1 & 6 & Str. bombings \\
+\hline
+Transport & 7 & 0 & 0 & 2 & transports 1 unit + 1 inf. \\
+Submarine & 6 & 2 & 1 & 2 & surprise \& submerge \\
+Destroyer & 8 & 2 & 2 & 2 & Anti-submarine \\
+Cruiser & 12 & 3 & 3 & 2 & Shore bombardment \\
+Carrier & 16 & 0 & 2 & 2 & 2 lifes \\
+Battleship & 20 & 4 & 4 & 2 & 2 lifes, shore bombardment\\
+\hline
+Min. Industry & 12 & \multicolumn{4}{c}{build up to 3 units, 1 unit less per dmg point} \\
+Maj. Industry & 30 & \multicolumn{4}{c}{build up to 10 units, 1 unit less per dmg point} \\
+Upgrade & 20 & \multicolumn{4}{c}{upgrade minor to major industry} \\
+Airbase & 15 & \multicolumn{4}{c}{+1 movement, scramble, inoperative at 3+ dmg} \\
+Navalbase & 15 & \multicolumn{4}{c}{+1 movement, rapair, inoperative at 3+ dmg} \\
+\end{tabular}
+\egroup
+}
+\end{sideways}
+
 
 \end{multicols*}
 
