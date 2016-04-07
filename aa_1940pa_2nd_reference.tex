@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper,landscape]{article}
+\documentclass[10pt,twoside]{article}
 %
 % Spaltenbreite soll 8cm sein (passt genau in AA Schachteln)
 % A4 = 297x210, benutzen landscape
@@ -9,9 +9,12 @@
 % => 3*7,5 + 2*0.5 + 2*3,1 = 29,7 :)
 %
 
-\usepackage[landscape,
-			hmargin={3.1cm},
-			vmargin={0.8cm, 1.2cm}]{geometry}
+\usepackage[landscape, a4paper,
+			left=3.1cm, 
+			right=3.1cm,
+			top=0.8cm, 
+			bottom=1.2cm
+			]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 \usepackage[T1]{fontenc}
@@ -19,6 +22,8 @@
 
 \usepackage{lastpage}
 \usepackage{fancyhdr} 
+
+\addtolength{\footskip}{-0.4cm}
 \fancyhf{}
 \cfoot{Short Reference for Axis \& Allies 1940 Pacific 2nd Edition}
 \rfoot{\thepage / \pageref{LastPage}}
