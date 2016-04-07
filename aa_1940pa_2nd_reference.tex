@@ -25,12 +25,16 @@
 
 \addtolength{\footskip}{-0.4cm}
 \fancyhf{}
+\lfoot{Version: \today}
 \cfoot{Short Reference for Axis \& Allies 1940 Pacific 2nd Edition}
 \rfoot{\thepage / \pageref{LastPage}}
 \pagestyle{fancy}    
 
 \setlength{\columnsep}{0.5cm}
 \setlength{\columnseprule}{0.4pt}
+
+% damit beim SCI-Drucker beide Seiten übereinander sind (benötigt twosided layout)
+\addtolength\oddsidemargin {0.25cm}
 
 \begin{document}
 \begin{multicols*}{3}
