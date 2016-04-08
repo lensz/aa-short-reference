@@ -69,7 +69,7 @@ Moving troops and landing air units that engaged in battle (allowed even on carr
 Place bought units from phase 1 on the map. If you bought more units than you can place (eg. because of facility damage), you have to give units back. Price is refunded. Before placement check industry damage.
 \item Collect Income
 \begin{enumerate}
-\item Convoy disruptions
+\item Convoy disruptions on you?
 \item Check National Objectives
 \item Calculate IPC for next round
 \end{enumerate}
@@ -114,14 +114,14 @@ Version: \today
 \item Push attack (goto 1) or retreat?
 \end{enumerate}
 
-\section*{Political Situation}
+\subsection*{Political Situation}
 \begin{description}
 \item[Axis Victory] JP controlling 6 victory cities (including Tokyo) for a complete round of play (So in beginning of JP turn). Liberation of Tokyo in this turn is also allowed.\textsuperscript{p.24}
 \item[Allied Victory] Allies control one of their capitals plus Tokyo for complete round. Liberation  of a capital is also allowed. \textsuperscript{p.24}
 \end{description}
 
-\subsection*{Politics}
-At the beginning, there is only war between JP-CH. Allied troops in/through CH are an act of war against JP. CH units can only move on CH emblems plus Kwangtung and Burma - even the fighter. No power on either side may enter sovjet territory.
+%\subsection*{Politics}
+At the beginning, there is only war between JP-CH. Allied troops in/through CH are an act of war against JP. CH units can only move on CH emblems plus Kwangtung and Burma -- even the fighter. No power on either side may enter sovjet territory.
 
 If JP is at peace with US, JP may not end move within 2 territories of Alaska and West US. On the other hand, US may not end move in sea zone adjacent to JP-controlled territories. 
 
@@ -129,6 +129,8 @@ An unprovoked attack from JP to \{AZ, UK, Dutch\} results in war with whole Alli
 
 JP attack on France has no consequences here. UKAZ is treated as one nation for political purposes. UKAZ may declare war on JP any time (but then without US).
 UKAZ may take dutch territories for free right from the beginning.
+
+%\section*{Miscellaneous}
 
 \subsection*{Movement misc.}
 \begin{itemize}
@@ -138,10 +140,10 @@ UKAZ may take dutch territories for free right from the beginning.
 \end{itemize}
 
 \subsection*{Blitzing}
-Move two territories through hostile lands and capture the first one on the fly. You can only blitz through empty territory. Units - even AAA, airports and industry - stop the movement. \textsuperscript{p.14}
+Move two territories through hostile lands and capture the first one on the fly. You can only blitz through empty territory. Units -- even AAA, airports and industry -- stop the movement. \textsuperscript{p.14}
 
 \subsection*{Surprise Strike and Submerge of submarines}
-Attacking and defending submarines may choose one of the above before at every round of the sea battle - but only if the opposing side has no destroyer! Attacking player decides first what to do. Submarines that did a surprise strike don't fire in the normal combat again.
+Attacking and defending submarines may choose one of the above before at every round of the sea battle -- but only if the opposing side has no destroyer! Attacking player decides first what to do. Submarines that did a surprise strike don't fire in the normal combat again.
 
 \subsubsection*{Submerge}
 Submarines are immediately removed from battle, back to the map.
@@ -176,15 +178,16 @@ Liberate captured territory from your alliance gives it to the original controll
 \textbf{Liberate Capital:} territories in hands of friends go immediately back to own control.
 
 \subsection*{Strategical and Tactical Bombing Raids}
-Direct attack with tac.-bomber on air- or navalbase. Str.-bomber can attack industry, too.
-Damaged facilities have to be repaired (with IPC). Defender and Attacker can both add fighters (but they don't have to). Defending fighters come from attacked territory - Attacking from everywhere. If defender uses fighters, a special airbattle follows. 
+Direct attack with tactical bombers on air- or navalbase. Strategic bombers can attack industry, too.
+Damaged facilities have to be repaired (with IPC). Defender and Attacker can both add fighters (but they don't have to). Defending fighters -- or interceptors -- come from the attacked territory. Attacking fighters -- or escort fighters -- from everywhere. Only if the defender uses interceptors, there follows a special airbattle with
 \begin{itemize}
-\item one round of combat
-\item all units have attack/defense of one
+\item only one round of combat
+\item all units have attack/defense value of 1
 \end{itemize}
-Fighters don't participate in the actual bombing, so no AA fire on them. If territoy has multiple targets, the bombers may be split. Each facility has its own AA.\\
-Each complex rolls one dice against each bomber attacking it. Hits on 1 or less and the bomber is removed immediately. Now the surviving bombers roll one dice each. Str. bombers add 2 to each dice. Sum of those is the total damage. Place one gray chip under the facility for every damagepoint to indicate damage. Max damage is 20 for major industry, 6 for everything else.\\
-No plane involved can participate in other battles in that turn. \textsuperscript{p.16}
+The fighters don't participate in the actual bombing, so no facility-AA fire on them. If a territory has multiple target facilities, the attacker may split his bombers. Each facility has its own AA.
+
+Each complex rolls one dice against each bomber attacking it. The facility-AA hits on 1 or less and the bomber is removed immediately. Now the surviving bombers roll one dice each. Strategic bombers add 2 to each dice. The sum of those dice rolls is the total damage inflicted. Place one gray chip under the facility for every damage point to indicate damage. Max damage is 20 for major industry, 6 for everything else.\\
+None of the involved planes can participate in other battles that turn.\textsuperscript{p.16}
 
 \subsection*{Convoy Disruptions}
 At the beginning of your collect-income phase, do enemy warships (all except carrier) and carrier based air units fire on your convoys. Only in convoy-provinces. Your own warships in the zone have no effect.\\
@@ -196,91 +199,89 @@ Submarines and air units have two dices, all other warships only one. Hits 4 or 
 \subsection*{Industry}
 \texttt{Cost: minor 12, major 30, upgrade 20}\\
 For building units.\\
-On capture major one get downgraded to minor.
-Minor needs territory with value two or higher. Major require 3 or higher and original controlled territory. Both cannot be placed on islands. You cannot build on friendly industry (even liberated)\\
-Damaged industry produces less units (one for every damage point). Maxdamage is 6 and respectively 20.
+On capture major one gets downgraded to minor.
+Minor needs territory with value two or higher. Major require 3 or higher and original controlled territory. Both cannot be placed on islands. You cannot build units in friendly industry (even liberated)\\
+Damaged industry produces less units (one for every damage point). Maximal damage is 6 respectively 20.
 
 \subsection*{Air- and Navalbase}
 \texttt{Cost: 15}\\
-One additional movement point, large ship repair and allowes scrambling (air).\\
-Carrier Aircraft does not profit from airbase on land. Carriers and battleships get repaired in friendly navalbases in the turn of the shipowner.
-\\
-If has three or more damage points gets inoperative. So range is reduced, no repairs are done and scrambling is prohibited.
+Allowes one additional movement point, repair of large ships (sea) and scrambling (air).\\
+Carrier aircraft does not profit from airbase on land. Carriers and battleships get repaired in friendly navalbases in the turn of the shipowner.
+\\You can use all bases in your alliance.\\
+Becomes inoperative with three or more damage points. So range is reduced, no repairs are done and scrambling is prohibited.
 
 \subsection*{Infantry}
-\texttt{Cost: 3 \\ Attack: 1 (2 with Art) \\ Defense: 2 \\ Move: 1}
-\\
+\texttt{Cost: 3 \quad\quad\quad Attack: ~1 (2 with Art) \\ Move: 1 \quad\quad\quad Defense: 2 \\ }
 Attack increases if paired with artillery.
 
 \subsection*{Artillery}
-\texttt{Cost: 4 \\ Attack: 2 \\ Defense: 2 \\ Move: 1}
-\\
-Can be paired with infantry and mechanized infantry
+\texttt{Cost: 4 \quad\quad\quad Attack: ~2 \\ Move: 1 \quad\quad\quad Defense: 2 \\ }
+Can be paired with infantry and mechanized infantry.
 
 \subsection*{Mechanized Infantry}
-\texttt{Cost: 4 \\ Attack: 1 (2 with Art) \\ Defense: 2 \\ Move: 2}
-\\
+\texttt{Cost: 4 \quad\quad\quad Attack: ~1 (2 with Art) \\ Move: 2 \quad\quad\quad Defense: 2 \\ }
 Attack increases if paired with artillery.\\
 Can blitz when paired with a tank. Moving must start and end in same province for tank and mech.
 
 \subsection*{Tanks}
-\texttt{Cost: 6 \\ Attack: 3 \\ Defense: 3 \\ Move: 2}
-\\
-Can be paired with tac. bombers and mech. infantry.\\
-Can blitz. 
+\texttt{Cost: 6 \quad\quad\quad Attack: ~3 \\ Move: 2 \quad\quad\quad Defense: 3 \\ }
+Can be paired with tactical bombers and mechanized infantry.\\
+Can blitz. Allowes mechanized infantry to blitz.
 
 \subsection*{AAA (Anti Aircraft Artillery)}
-\texttt{Cost: 5 \\ Attack: - \\ Defense: - \\ Move: 1 (only non-combat move)}
-\\
+\texttt{Cost: 5 \quad\quad\quad\quad\quad\quad\quad ~Attack: ~- \\ Move: 1 (non-combat) \quad Defense: 0 \\}
 Can not be used during attacks (except amphibious assault). Can not defend, but can be used as casualty.\\
-Can defend against planes attacking the territory it stands in. Fire only once before the first actual combat round. Hits on 1. Each AAA may fire on 3 attacking airplanes, but on each airplane may only be shot once (So 5 fighters, 2 AAA $\rightarrow$ 5 rolls).
+Can defend against planes attacking the territory it stands in. They fire only once before the first actual combat round. Hits on 1. Each AAA may fire on 3 attacking airplanes, but on each airplane may only be shot once (so 5 fighters, 2 AAA $\rightarrow$ 5 rolls). Destroyed planes don't shoot back. Can \emph{not} defend against bombing runs -- facilities have there own AA-guns.
 
 \subsection*{Fighters}
-\texttt{Cost: 10 \\ Attack: 3 \\ Defense: 4 \\ Move: 4}
-\\
+\texttt{Cost: 10 \quad\quad\quad Attack: ~3 \\ Move: ~4 \quad\quad\quad Defense: 4 \\ }
 Can be used on a carrier.\\
 Can escort and intercept bombing raids (see \glqq Strategical and Tactical Bombing Raids\grqq)
 
 \subsection*{Tactical Bombers}
-\texttt{Cost: 11 \\ Attack: 3 (4 with tank or fighter) \\ Defense: 3 \\ Move: 4}
-\\
+\texttt{Cost: 11 \quad Attack: ~3 {\scriptsize(4 with tank or fighter)} \\ Move: ~4 \quad Defense: 3 \\ }
 Can be used on a carrier.\\
 Can be paired with fighters or tanks to increase attack value to 4.\\
 Can conduct bombing raids (see \glqq Strategical and Tactical Bombing Raids\grqq).
 
 \subsection*{Strategic Bombers}
-\texttt{Cost: 12 \\ Attack: 4 \\ Defense: 1 \\ Move: 6}
-\\
+\texttt{Cost: 12 \quad\quad\quad Attack: ~4 \\ Move: ~6 \quad\quad\quad Defense: 1 \\ }
 Can not be used on a carrier.\\
 Can conduct bombing raids (see \glqq Strategical and Tactical Bombing Raids\grqq).
 
 
 \subsection*{Battleships}
-\texttt{Cost: 20 \\ Attack: 4 \\ Defense: 4 \\ Move: 2}
-\\
+\texttt{Cost: 20 \quad\quad\quad Attack: ~4 \\ Move: ~2 \quad\quad\quad Defense: 4 \\ }
 Has two lifes.\\
 Can conduct offshore bombardment.
 
 \subsection*{Carrier}
-\texttt{Cost: 16 \\ Attack: 0 \\ Defense: 2 \\ Move: 2}
-\\
+\texttt{Cost: 16 \quad\quad\quad Attack: ~0 \\ Move: ~2 \quad\quad\quad Defense: 2 \\ }
 Has two lifes.\\
-Guest planes are treated as cargo and move with the carrier but don't defend it. Own planes move independently from the carrier. So, carriers are airports in the sea zone they end their move.\\
-Damaged carriers can't conduct air operations. Planes can't land on a damaged one. Friendly (cargo) planes are trapped on it and cannot move.
+Guest planes are treated as cargo and move with the carrier but don't defend it. Own planes move independently from the carrier. So they start instantly when the carrier moves. Planes can only land on the ship in the seazone the carrier ends its turn -- contrary to transports, which can load while moving\\
+Damaged carriers can't conduct air operations. Planes can't land on a damaged one. Friendly (cargo) planes are trapped on it and cannot move until repaired.
 
 \subsection*{Cruiser}
-\texttt{Cost: 12 \\ Attack: 3 \\ Defense: 3 \\ Move: 2}
-\\
+\texttt{Cost: 12 \quad\quad\quad Attack: ~3 \\ Move: ~2 \quad\quad\quad Defense: 3 \\ }
 Can conduct offshore bombardment.
 
+\subsection*{Destroyer}
+\texttt{Cost: 8 \quad\quad\quad Attack: ~2 \\ Move: 2 \quad\quad\quad Defense: 2 \\ }
+Anti-submarine ship. Cancels most of submarine abilities.\\
+With a destroyer in the fleet your airplanes can hit submarines.
+
 \subsection*{Submarines}
-\texttt{Cost: 6 \\ Attack: 2 \\ Defense: 1 \\ Move: 2}
-\\
-Can Surprise strike before every round of a seabattle.\\
-Can Submerge (and retreat) before every round of a seabattle.\\
+\texttt{Cost: 6 \quad\quad\quad Attack: ~2 \\ Move: 2 \quad\quad\quad Defense: 1 \\ }
+Can surprise strike and submerge (direct retreat) before every round of a seabattle.\\
 Two dices in convoy attacks.\\
-Stealth movement (under enemy warships)\\
-Can't hit air units. Can't be hit by air units.
+Stealth movement (under enemy warships).\\
+Can't hit air units. Can't be hitten by air units, unless there is a destroyer present.
+
+\subsection*{Transports}
+\texttt{Cost: 7 \quad\quad\quad Attack: ~0 \\ Move: 2 \quad\quad\quad Defense: 0 \\ }
+Can transport 1 land unit plus 1 additional infantry unit.\\
+Can only be chosen as a casualty if no other option is valid (\glqq chosen last\grqq).\\
+Friendly units have to move on the transpoter in their turn, be carried on your turn and offload in their future turns.
 
 \begin{center}
 \begin{sideways}
@@ -288,25 +289,25 @@ Can't hit air units. Can't be hit by air units.
 \bgroup\def\arraystretch{1.1}\begin{tabular}{l|c|c|c|c|l}
 Name & Cost & Att & Def & Move & Special \\
 \hline
-Infantry & 3 & 1 (2) & 2 & 1 & - \\
-Artillery & 4 & 2 & 2 & 1 & - \\
+Infantry & 3 & 1 (2) & 2 & 1 & -- \\
+Artillery & 4 & 2 & 2 & 1 & -- \\
 Mech. Inf. & 4 & 1 (2) & 2 & 2 & can blitz with tank \\
 Tank & 6 & 3 & 3 & 2 & can blitz \\
-AAA & 5 & - & 0 & 1 & shoots on up to 3 planes \\
+AAA & 5 & -- & 0 & 1 & shoots on up to 3 planes \\
 \hline
 Fighter & 10 & 3 & 4 & 4 & escort/intercept bombings \\
-Tac. Bomber & 11 & 3 (4) & 3 & 4 & Tac. bombings \\
-Str. Bomber & 12 & 4 & 1 & 6 & Str. bombings \\
+Tac. Bomber & 11 & 3 (4) & 3 & 4 & Tactical bombings \\
+Str. Bomber & 12 & 4 & 1 & 6 & Strategic bombings \\
 \hline
 Transport & 7 & 0 & 0 & 2 & transports 1 unit + 1 inf. \\
-Submarine & 6 & 2 & 1 & 2 & surprise \& submerge \\
-Destroyer & 8 & 2 & 2 & 2 & Anti-submarine \\
+Submarine & 6 & 2 & 1 & 2 & surprise strike \& submerge \\
+Destroyer & 8 & 2 & 2 & 2 & Anti-submarine ship \\
 Cruiser & 12 & 3 & 3 & 2 & Shore bombardment \\
 Carrier & 16 & 0 & 2 & 2 & 2 lifes \\
-Battleship & 20 & 4 & 4 & 2 & 2 lifes, shore bombardment\\
+Battleship & 20 & 4 & 4 & 2 & 2 lifes; shore bombardment\\
 \hline
-Min. Industry & 12 & \multicolumn{4}{c}{build up to 3 units, 1 unit less per dmg point} \\
-Maj. Industry & 30 & \multicolumn{4}{c}{build up to 10 units, 1 unit less per dmg point} \\
+Min. Industry & 12 & \multicolumn{4}{c}{build up to 3 units, but 1 unit less per dmg point} \\
+Maj. Industry & 30 & \multicolumn{4}{c}{build up to 10 units, but 1 unit less per dmg point} \\
 Upgrade & 20 & \multicolumn{4}{c}{upgrade minor to major industry} \\
 Airbase & 15 & \multicolumn{4}{c}{+1 movement, scramble, inoperative at 3+ dmg} \\
 Navalbase & 15 & \multicolumn{4}{c}{+1 movement, rapair, inoperative at 3+ dmg} \\
@@ -316,19 +317,7 @@ Navalbase & 15 & \multicolumn{4}{c}{+1 movement, rapair, inoperative at 3+ dmg} 
 \end{sideways}
 \end{center}
 
-\subsection*{Destroyer}
-\texttt{Cost: 8 \\ Attack: 2 \\ Defense: 2 \\ Move: 2}
-\\
-Anti-submarine ship. Cancels most of submarine abilities.\\
-With a destroyer in the fleet your airplanes can hit submarines.
-
-\subsection*{Transports}
-\texttt{Cost: 7 \\ Attack: 0 \\ Defense: 0 \\ Move: 2}
-\\
-Can transport 1 landunit plus 1 additional infantry\\
-Can only chosen as a casualty if no other option is valid (\glqq chosen last\grqq).\\
-Friendly units have to move on the trapo in their turn, be carried on your turn and offload in their future turns.
-
+\noindent\begin{minipage}{\linewidth}
 \section*{National Objectives}
 \subsection*{Japan}
 When Japan is not at War with US:
@@ -348,6 +337,8 @@ When ANZAC Is at War with Japan:
 \item 5 IPCs if an Allied power controls Malaya and ANZAC controls all of its original territories. \textsl{Theme: Malaya considered strategic cornerstone to Far East British Empire.}
 \item 5 IPCs if the Allies (not including the Dutch) control Dutch New Guinea, New Guinea, New Britain, and the Solomon Islands. \textsl{Theme: Strategic outer defense perimeter.}
 \end{itemize}
+\end{minipage}
+\columnbreak
 
 \subsection*{United Kingdom}
 When the United Kingdom Is at War with Japan:
